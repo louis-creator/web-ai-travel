@@ -1,0 +1,976 @@
+[
+  {
+    "id": 1,
+    "name": "Dinh Độc Lập",
+    "tags": [
+      "history",
+      "politics"
+    ],
+    "price": 40000,
+    "opening_hours": "08:00 - 16:30",
+    "address": "135 Nam Kỳ Khởi Nghĩa, Phường Bến Thành, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Dinh%20%C4%90%E1%BB%99c%20L%E1%BA%ADp%20135%20Nam%20K%E1%BB%B3%20Kh%E1%BB%9Fi%20Ngh%C4%A9a%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Th%C3%A0nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 2,
+    "name": "Nhà thờ Đức Bà Sài Gòn",
+    "tags": [
+      "religion",
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 18:00",
+    "address": "01 Công xã Paris, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0%20th%E1%BB%9D%20%C4%90%E1%BB%A9c%20B%C3%A0%20S%C3%A0i%20G%C3%B2n%2001%20C%C3%B4ng%20x%C3%A3%20Paris%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 3,
+    "name": "Bưu điện Trung tâm Sài Gòn",
+    "tags": [
+      "history",
+      "art",
+      "politics"
+    ],
+    "price": 0,
+    "opening_hours": "07:00 - 19:00",
+    "address": "02 Công xã Paris, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C6%B0u%20%C4%91i%E1%BB%87n%20Trung%20t%C3%A2m%20S%C3%A0i%20G%C3%B2n%2002%20C%C3%B4ng%20x%C3%A3%20Paris%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 4,
+    "name": "Chợ Bến Thành",
+    "tags": [
+      "cuisine",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "06:00 - 18:00",
+    "address": "Cửa Nam, Phường Bến Thành, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ch%E1%BB%A3%20B%E1%BA%BFn%20Th%C3%A0nh%20C%E1%BB%ADa%20Nam%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Th%C3%A0nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 5,
+    "name": "Trụ sở Ủy ban Nhân dân Thành phố Hồ Chí Minh",
+    "tags": [
+      "politics",
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "Cả ngày",
+    "address": "86 Lê Thánh Tôn, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Tr%E1%BB%A5%20s%E1%BB%9F%20%E1%BB%A6y%20ban%20Nh%C3%A2n%20d%C3%A2n%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh%2086%20L%C3%AA%20Th%C3%A1nh%20T%C3%B4n%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 6,
+    "name": "Nhà hát Thành phố Hồ Chí Minh",
+    "tags": [
+      "art",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "Cả ngày",
+    "address": "07 Công Trường Lam Sơn, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0%20h%C3%A1t%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh%2007%20C%C3%B4ng%20Tr%C6%B0%E1%BB%9Dng%20Lam%20S%C6%A1n%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 7,
+    "name": "Tòa nhà Bitexco Financial Tower",
+    "tags": [
+      "art"
+    ],
+    "price": 200000,
+    "opening_hours": "09:30 - 21:30",
+    "address": "02 Hải Triều, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=T%C3%B2a%20nh%C3%A0%20Bitexco%20Financial%20Tower%2002%20H%E1%BA%A3i%20Tri%E1%BB%81u%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 8,
+    "name": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh",
+    "tags": [
+      "history",
+      "art"
+    ],
+    "price": 30000,
+    "opening_hours": "08:00 - 17:00",
+    "address": "02 Nguyễn Bỉnh Khiêm, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20L%E1%BB%8Bch%20s%E1%BB%AD%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh%2002%20Nguy%E1%BB%85n%20B%E1%BB%89nh%20Khi%C3%AAm%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 9,
+    "name": "Bảo tàng Chứng tích Chiến tranh",
+    "tags": [
+      "history",
+      "politics"
+    ],
+    "price": 40000,
+    "opening_hours": "07:30 - 17:30",
+    "address": "28 Võ Văn Tần, Phường 6, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20Ch%E1%BB%A9ng%20t%C3%ADch%20Chi%E1%BA%BFn%20tranh%2028%20V%C3%B5%20V%C4%83n%20T%E1%BA%A7n%2C%20Ph%C6%B0%E1%BB%9Dng%206%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 10,
+    "name": "Phố đi bộ Nguyễn Huệ",
+    "tags": [
+      "nature",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "Cả ngày",
+    "address": "Đường Nguyễn Huệ, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%91%20%C4%91i%20b%E1%BB%99%20Nguy%E1%BB%85n%20Hu%E1%BB%87%20%C4%90%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20Hu%E1%BB%87%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 11,
+    "name": "Thảo Cầm Viên Sài Gòn",
+    "tags": [
+      "nature"
+    ],
+    "price": 50000,
+    "opening_hours": "07:00 - 17:00",
+    "address": "02 Nguyễn Bỉnh Khiêm, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Th%E1%BA%A3o%20C%E1%BA%A7m%20Vi%C3%AAn%20S%C3%A0i%20G%C3%B2n%2002%20Nguy%E1%BB%85n%20B%E1%BB%89nh%20Khi%C3%AAm%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 12,
+    "name": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+    "tags": [
+      "art",
+      "history"
+    ],
+    "price": 30000,
+    "opening_hours": "09:00 - 17:00",
+    "address": "97 Phó Đức Chính, Phường Nguyễn Thái Bình, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20M%E1%BB%B9%20thu%E1%BA%ADt%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh%2097%20Ph%C3%B3%20%C4%90%E1%BB%A9c%20Ch%C3%ADnh%2C%20Ph%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20Th%C3%A1i%20B%C3%ACnh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 13,
+    "name": "Bến Nhà Rồng",
+    "tags": [
+      "history",
+      "politics"
+    ],
+    "price": 0,
+    "opening_hours": "07:30 - 17:00",
+    "address": "01 Nguyễn Tất Thành, Phường 12, Quận 4",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%BFn%20Nh%C3%A0%20R%E1%BB%93ng%2001%20Nguy%E1%BB%85n%20T%E1%BA%A5t%20Th%C3%A0nh%2C%20Ph%C6%B0%E1%BB%9Dng%2012%2C%20Qu%E1%BA%ADn%204%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 14,
+    "name": "Chợ Bình Tây",
+    "tags": [
+      "cuisine",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "06:00 - 19:00",
+    "address": "57 Tháp Mười, Phường 2, Quận 6",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ch%E1%BB%A3%20B%C3%ACnh%20T%C3%A2y%2057%20Th%C3%A1p%20M%C6%B0%E1%BB%9Di%2C%20Ph%C6%B0%E1%BB%9Dng%202%2C%20Qu%E1%BA%ADn%206%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 15,
+    "name": "Chùa Vĩnh Nghiêm",
+    "tags": [
+      "religion",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "07:00 - 18:00",
+    "address": "339 Nam Kỳ Khởi Nghĩa, Phường Võ Thị Sáu, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ch%C3%B9a%20V%C4%A9nh%20Nghi%C3%AAm%20339%20Nam%20K%E1%BB%B3%20Kh%E1%BB%9Fi%20Ngh%C4%A9a%2C%20Ph%C6%B0%E1%BB%9Dng%20V%C3%B5%20Th%E1%BB%8B%20S%C3%A1u%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 16,
+    "name": "Miếu Bà Thiên Hậu",
+    "tags": [
+      "religion",
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "08:00 - 17:00",
+    "address": "710 Nguyễn Trãi, Phường 11, Quận 5",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Mi%E1%BA%BFu%20B%C3%A0%20Thi%C3%AAn%20H%E1%BA%ADu%20710%20Nguy%E1%BB%85n%20Tr%C3%A3i%2C%20Ph%C6%B0%E1%BB%9Dng%2011%2C%20Qu%E1%BA%ADn%205%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 17,
+    "name": "Cầu Mống",
+    "tags": [
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "Cả ngày",
+    "address": "Võ Văn Kiệt, Phường Cầu Ông Lãnh, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%E1%BA%A7u%20M%E1%BB%91ng%20V%C3%B5%20V%C4%83n%20Ki%E1%BB%87t%2C%20Ph%C6%B0%E1%BB%9Dng%20C%E1%BA%A7u%20%C3%94ng%20L%C3%A3nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 18,
+    "name": "Vincom Landmark 81",
+    "tags": [
+      "art"
+    ],
+    "price": 162000,
+    "opening_hours": "09:00 - 22:00",
+    "address": "720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Vincom%20Landmark%2081%20720A%20%C4%90i%E1%BB%87n%20Bi%C3%AAn%20Ph%E1%BB%A7%2C%20Ph%C6%B0%E1%BB%9Dng%2022%2C%20Qu%E1%BA%ADn%20B%C3%ACnh%20Th%E1%BA%A1nh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 19,
+    "name": "Công viên Tao Đàn",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "Cả ngày",
+    "address": "Trương Định, Phường Bến Thành, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20Tao%20%C4%90%C3%A0n%20Tr%C6%B0%C6%A1ng%20%C4%90%E1%BB%8Bnh%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Th%C3%A0nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 20,
+    "name": "Phố đi bộ Bùi Viện",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 0,
+    "opening_hours": "Cả ngày",
+    "address": "Đường Bùi Viện, Phường Phạm Ngũ Lão, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%91%20%C4%91i%20b%E1%BB%99%20B%C3%B9i%20Vi%E1%BB%87n%20%C4%90%C6%B0%E1%BB%9Dng%20B%C3%B9i%20Vi%E1%BB%87n%2C%20Ph%C6%B0%E1%BB%9Dng%20Ph%E1%BA%A1m%20Ng%C5%A9%20L%C3%A3o%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 21,
+    "name": "Phở Hòa Pasteur",
+    "tags": [
+      "cuisine",
+      "history"
+    ],
+    "price": 75000,
+    "opening_hours": "06:00 - 22:00",
+    "address": "260C Pasteur, Phường 8, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F%20H%C3%B2a%20Pasteur%20260C%20Pasteur%2C%20Ph%C6%B0%E1%BB%9Dng%208%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 22,
+    "name": "Phở Lệ",
+    "tags": [
+      "cuisine",
+      "history"
+    ],
+    "price": 70000,
+    "opening_hours": "06:00 - 23:00",
+    "address": "413-415 Võ Văn Tần, Phường 5, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F%20L%E1%BB%87%20413-415%20V%C3%B5%20V%C4%83n%20T%E1%BA%A7n%2C%20Ph%C6%B0%E1%BB%9Dng%205%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 23,
+    "name": "Phở Dậu",
+    "tags": [
+      "cuisine",
+      "history"
+    ],
+    "price": 70000,
+    "opening_hours": "06:00 - 12:00",
+    "address": "288 Nam Kỳ Khởi Nghĩa, Phường Võ Thị Sáu, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F%20D%E1%BA%ADu%20288%20Nam%20K%E1%BB%B3%20Kh%E1%BB%9Fi%20Ngh%C4%A9a%2C%20Ph%C6%B0%E1%BB%9Dng%20V%C3%B5%20Th%E1%BB%8B%20S%C3%A1u%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 24,
+    "name": "Cơm Tấm Ba Ghiền",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 60000,
+    "opening_hours": "06:30 - 21:00",
+    "address": "84 Đặng Văn Ngữ, Phường 10, Phú Nhuận",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C6%A1m%20T%E1%BA%A5m%20Ba%20Ghi%E1%BB%81n%2084%20%C4%90%E1%BA%B7ng%20V%C4%83n%20Ng%E1%BB%AF%2C%20Ph%C6%B0%E1%BB%9Dng%2010%2C%20Ph%C3%BA%20Nhu%E1%BA%ADn%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 25,
+    "name": "Cơm Tấm Mộc",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 55000,
+    "opening_hours": "06:00 - 22:00",
+    "address": "85 Lý Tự Trọng, Phường Bến Thành, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C6%A1m%20T%E1%BA%A5m%20M%E1%BB%99c%2085%20L%C3%BD%20T%E1%BB%B1%20Tr%E1%BB%8Dng%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Th%C3%A0nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 26,
+    "name": "Bánh Mì Huỳnh Hoa",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 45000,
+    "opening_hours": "14:30 - 23:00",
+    "address": "26 Lê Thị Riêng, Phường Bến Thành, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20M%C3%AC%20Hu%E1%BB%B3nh%20Hoa%2026%20L%C3%AA%20Th%E1%BB%8B%20Ri%C3%AAng%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Th%C3%A0nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 27,
+    "name": "Bánh Mì Hòa Mã",
+    "tags": [
+      "cuisine",
+      "history"
+    ],
+    "price": 50000,
+    "opening_hours": "06:00 - 10:00",
+    "address": "53 Cao Thắng, Phường 3, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20M%C3%AC%20H%C3%B2a%20M%C3%A3%2053%20Cao%20Th%E1%BA%AFng%2C%20Ph%C6%B0%E1%BB%9Dng%203%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 28,
+    "name": "Bánh Mì 37 Nguyễn Trãi",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 30000,
+    "opening_hours": "16:00 - 19:00",
+    "address": "Hẻm 39 Nguyễn Trãi, Phường Bến Thành, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20M%C3%AC%2037%20Nguy%E1%BB%85n%20Tr%C3%A3i%20H%E1%BA%BBm%2039%20Nguy%E1%BB%85n%20Tr%C3%A3i%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Th%C3%A0nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 29,
+    "name": "Bún Chả 145 Bùi Viện",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 65000,
+    "opening_hours": "11:00 - 21:00",
+    "address": "145 Bùi Viện, Phường Phạm Ngũ Lão, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%BAn%20Ch%E1%BA%A3%20145%20B%C3%B9i%20Vi%E1%BB%87n%20145%20B%C3%B9i%20Vi%E1%BB%87n%2C%20Ph%C6%B0%E1%BB%9Dng%20Ph%E1%BA%A1m%20Ng%C5%A9%20L%C3%A3o%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 30,
+    "name": "Bánh Xèo 46A Đinh Công Tráng",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 70000,
+    "opening_hours": "10:00 - 22:00",
+    "address": "46A Đinh Công Tráng, Phường Tân Định, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20X%C3%A8o%2046A%20%C4%90inh%20C%C3%B4ng%20Tr%C3%A1ng%2046A%20%C4%90inh%20C%C3%B4ng%20Tr%C3%A1ng%2C%20Ph%C6%B0%E1%BB%9Dng%20T%C3%A2n%20%C4%90%E1%BB%8Bnh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 31,
+    "name": "Bột Chiên Đạt Thành",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 35000,
+    "opening_hours": "15:00 - 22:00",
+    "address": "277 Võ Văn Tần, Phường 5, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BB%99t%20Chi%C3%AAn%20%C4%90%E1%BA%A1t%20Th%C3%A0nh%20277%20V%C3%B5%20V%C4%83n%20T%E1%BA%A7n%2C%20Ph%C6%B0%E1%BB%9Dng%205%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 32,
+    "name": "Quán Ốc Đào",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 200000,
+    "opening_hours": "10:00 - 22:00",
+    "address": "Hẻm 212 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Qu%C3%A1n%20%E1%BB%90c%20%C4%90%C3%A0o%20H%E1%BA%BBm%20212%20Nguy%E1%BB%85n%20Tr%C3%A3i%2C%20Ph%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20C%C6%B0%20Trinh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 33,
+    "name": "Cục Gạch Quán",
+    "tags": [
+      "cuisine",
+      "history"
+    ],
+    "price": 250000,
+    "opening_hours": "10:00 - 23:00",
+    "address": "10 Đặng Tất, Phường Tân Định, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%E1%BB%A5c%20G%E1%BA%A1ch%20Qu%C3%A1n%2010%20%C4%90%E1%BA%B7ng%20T%E1%BA%A5t%2C%20Ph%C6%B0%E1%BB%9Dng%20T%C3%A2n%20%C4%90%E1%BB%8Bnh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 34,
+    "name": "Phở Miến Gà Kỳ Đồng",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 65000,
+    "opening_hours": "06:00 - 22:00",
+    "address": "14/5 Bis Kỳ Đồng, Phường 9, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F%20Mi%E1%BA%BFn%20G%C3%A0%20K%E1%BB%B3%20%C4%90%E1%BB%93ng%2014/5%20Bis%20K%E1%BB%B3%20%C4%90%E1%BB%93ng%2C%20Ph%C6%B0%E1%BB%9Dng%209%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 35,
+    "name": "Nhà hàng Dimsum Hào Ký",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 100000,
+    "opening_hours": "06:00 - 14:00",
+    "address": "198-200 Hải Thượng Lãn Ông, Phường 13, Quận 5",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0%20h%C3%A0ng%20Dimsum%20H%C3%A0o%20K%C3%BD%20198-200%20H%E1%BA%A3i%20Th%C6%B0%E1%BB%A3ng%20L%C3%A3n%20%C3%94ng%2C%20Ph%C6%B0%E1%BB%9Dng%2013%2C%20Qu%E1%BA%ADn%205%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 36,
+    "name": "Bún Bò Huế Nam Giao",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 55000,
+    "opening_hours": "07:00 - 22:00",
+    "address": "168 Nguyễn Đình Chiểu, Phường 6, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%BAn%20B%C3%B2%20Hu%E1%BA%BF%20Nam%20Giao%20168%20Nguy%E1%BB%85n%20%C4%90%C3%ACnh%20Chi%E1%BB%83u%2C%20Ph%C6%B0%E1%BB%9Dng%206%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 37,
+    "name": "Bánh Canh Cua 14 Trần Khắc Chân",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 60000,
+    "opening_hours": "07:00 - 21:00",
+    "address": "14 Trần Khắc Chân, Phường Tân Định, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20Canh%20Cua%2014%20Tr%E1%BA%A7n%20Kh%E1%BA%AFc%20Ch%C3%A2n%2014%20Tr%E1%BA%A7n%20Kh%E1%BA%AFc%20Ch%C3%A2n%2C%20Ph%C6%B0%E1%BB%9Dng%20T%C3%A2n%20%C4%90%E1%BB%8Bnh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 38,
+    "name": "Bánh Cuốn Tây Hồ",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 50000,
+    "opening_hours": "06:00 - 13:00",
+    "address": "127 Đinh Tiên Hoàng, Phường Đa Kao, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh%20Cu%E1%BB%91n%20T%C3%A2y%20H%E1%BB%93%20127%20%C4%90inh%20Ti%C3%AAn%20Ho%C3%A0ng%2C%20Ph%C6%B0%E1%BB%9Dng%20%C4%90a%20Kao%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 39,
+    "name": "Phở Hùng",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 70000,
+    "opening_hours": "06:00 - 23:00",
+    "address": "243 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F%20H%C3%B9ng%20243%20Nguy%E1%BB%85n%20Tr%C3%A3i%2C%20Ph%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20C%C6%B0%20Trinh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 40,
+    "name": "Quán Bún Đậu Mắm Tôm Góc Hà Nội",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 80000,
+    "opening_hours": "10:00 - 22:00",
+    "address": "221/28 Nguyễn Đình Chiểu, Phường 5, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Qu%C3%A1n%20B%C3%BAn%20%C4%90%E1%BA%ADu%20M%E1%BA%AFm%20T%C3%B4m%20G%C3%B3c%20H%C3%A0%20N%E1%BB%99i%20221/28%20Nguy%E1%BB%85n%20%C4%90%C3%ACnh%20Chi%E1%BB%83u%2C%20Ph%C6%B0%E1%BB%9Dng%205%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 41,
+    "name": "Bảo tàng Lịch sử TP.HCM",
+    "tags": [
+      "history",
+      "art"
+    ],
+    "price": 30000,
+    "opening_hours": "08:00 - 17:00",
+    "address": "2 Nguyễn Bỉnh Khiêm, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20L%E1%BB%8Bch%20s%E1%BB%AD%20TP.HCM%202%20Nguy%E1%BB%85n%20B%E1%BB%89nh%20Khi%C3%AAm%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 42,
+    "name": "Bảo tàng Mỹ thuật TP.HCM",
+    "tags": [
+      "art",
+      "history"
+    ],
+    "price": 30000,
+    "opening_hours": "08:00 - 17:00",
+    "address": "97 Phó Đức Chính, Phường Nguyễn Thái Bình, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20M%E1%BB%B9%20thu%E1%BA%ADt%20TP.HCM%2097%20Ph%C3%B3%20%C4%90%E1%BB%A9c%20Ch%C3%ADnh%2C%20Ph%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20Th%C3%A1i%20B%C3%ACnh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 43,
+    "name": "Bảo tàng Y học Cổ truyền Việt Nam",
+    "tags": [
+      "history"
+    ],
+    "price": 120000,
+    "opening_hours": "08:30 - 17:30",
+    "address": "244/8 Nguyễn Thị Minh Khai, Phường 6, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20Y%20h%E1%BB%8Dc%20C%E1%BB%95%20truy%E1%BB%81n%20Vi%E1%BB%87t%20Nam%20244/8%20Nguy%E1%BB%85n%20Th%E1%BB%8B%20Minh%20Khai%2C%20Ph%C6%B0%E1%BB%9Dng%206%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 44,
+    "name": "Bảo tàng Thành phố Hồ Chí Minh",
+    "tags": [
+      "history"
+    ],
+    "price": 30000,
+    "opening_hours": "08:00 - 17:00",
+    "address": "65 Lý Tự Trọng, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh%2065%20L%C3%BD%20T%E1%BB%B1%20Tr%E1%BB%8Dng%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 45,
+    "name": "Bảo tàng Phụ nữ Nam Bộ",
+    "tags": [
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "07:30 - 11:30, 13:30 - 17:00",
+    "address": "202 Võ Thị Sáu, Phường Võ Thị Sáu, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20Ph%E1%BB%A5%20n%E1%BB%AF%20Nam%20B%E1%BB%99%20202%20V%C3%B5%20Th%E1%BB%8B%20S%C3%A1u%2C%20Ph%C6%B0%E1%BB%9Dng%20V%C3%B5%20Th%E1%BB%8B%20S%C3%A1u%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 46,
+    "name": "Địa đạo Củ Chi",
+    "tags": [
+      "history",
+      "politics"
+    ],
+    "price": 125000,
+    "opening_hours": "07:00 - 17:00",
+    "address": "Đường tỉnh 15, Xã Phú Hiệp, Huyện Củ Chi",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=%C4%90%E1%BB%8Ba%20%C4%91%E1%BA%A1o%20C%E1%BB%A7%20Chi%20%C4%90%C6%B0%E1%BB%9Dng%20t%E1%BB%89nh%2015%2C%20X%C3%A3%20Ph%C3%BA%20Hi%E1%BB%87p%2C%20Huy%E1%BB%87n%20C%E1%BB%A7%20Chi%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 47,
+    "name": "Chùa Ngọc Hoàng (Phước Hải Tự)",
+    "tags": [
+      "religion",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "07:00 - 18:00",
+    "address": "73 Mai Thị Lựu, Phường Đa Kao, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ch%C3%B9a%20Ng%E1%BB%8Dc%20Ho%C3%A0ng%20%28Ph%C6%B0%E1%BB%9Bc%20H%E1%BA%A3i%20T%E1%BB%B1%29%2073%20Mai%20Th%E1%BB%8B%20L%E1%BB%B1u%2C%20Ph%C6%B0%E1%BB%9Dng%20%C4%90a%20Kao%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 48,
+    "name": "Hội quán Thiên Hậu (Chùa Bà Thiên Hậu)",
+    "tags": [
+      "religion",
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "06:00 - 17:30",
+    "address": "710 Nguyễn Trãi, Phường 11, Quận 5",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=H%E1%BB%99i%20qu%C3%A1n%20Thi%C3%AAn%20H%E1%BA%ADu%20%28Ch%C3%B9a%20B%C3%A0%20Thi%C3%AAn%20H%E1%BA%ADu%29%20710%20Nguy%E1%BB%85n%20Tr%C3%A3i%2C%20Ph%C6%B0%E1%BB%9Dng%2011%2C%20Qu%E1%BA%ADn%205%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 49,
+    "name": "Chùa Giác Lâm",
+    "tags": [
+      "religion",
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "06:00 - 18:00",
+    "address": "118 Lạc Long Quân, Phường 10, Quận Tân Bình",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ch%C3%B9a%20Gi%C3%A1c%20L%C3%A2m%20118%20L%E1%BA%A1c%20Long%20Qu%C3%A2n%2C%20Ph%C6%B0%E1%BB%9Dng%2010%2C%20Qu%E1%BA%ADn%20T%C3%A2n%20B%C3%ACnh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 50,
+    "name": "Hội quán Nghĩa An (Chùa Ông Bổn)",
+    "tags": [
+      "religion",
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "08:00 - 17:00",
+    "address": "678 Nguyễn Trãi, Phường 11, Quận 5",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=H%E1%BB%99i%20qu%C3%A1n%20Ngh%C4%A9a%20An%20%28Ch%C3%B9a%20%C3%94ng%20B%E1%BB%95n%29%20678%20Nguy%E1%BB%85n%20Tr%C3%A3i%2C%20Ph%C6%B0%E1%BB%9Dng%2011%2C%20Qu%E1%BA%ADn%205%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 51,
+    "name": "Hội quán Quảng Triệu (Chùa Ông)",
+    "tags": [
+      "religion",
+      "history",
+      "art"
+    ],
+    "price": 0,
+    "opening_hours": "08:00 - 17:00",
+    "address": "13 Trần Hưng Đạo B, Phường 6, Quận 5",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=H%E1%BB%99i%20qu%C3%A1n%20Qu%E1%BA%A3ng%20Tri%E1%BB%87u%20%28Ch%C3%B9a%20%C3%94ng%29%2013%20Tr%E1%BA%A7n%20H%C6%B0ng%20%C4%90%E1%BA%A1o%20B%2C%20Ph%C6%B0%E1%BB%9Dng%206%2C%20Qu%E1%BA%ADn%205%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 52,
+    "name": "Lăng Ông Bà Chiểu (Lăng Lê Văn Duyệt)",
+    "tags": [
+      "history",
+      "religion"
+    ],
+    "price": 0,
+    "opening_hours": "07:00 - 17:00",
+    "address": "1 Vũ Tùng, Phường 1, Quận Bình Thạnh",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=L%C4%83ng%20%C3%94ng%20B%C3%A0%20Chi%E1%BB%83u%20%28L%C4%83ng%20L%C3%AA%20V%C4%83n%20Duy%E1%BB%87t%29%201%20V%C5%A9%20T%C3%B9ng%2C%20Ph%C6%B0%E1%BB%9Dng%201%2C%20Qu%E1%BA%ADn%20B%C3%ACnh%20Th%E1%BA%A1nh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 53,
+    "name": "Nhà hát Lớn TP.HCM",
+    "tags": [
+      "art",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "08:00 - 18:00",
+    "address": "7 Công trường Lam Sơn, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0%20h%C3%A1t%20L%E1%BB%9Bn%20TP.HCM%207%20C%C3%B4ng%20tr%C6%B0%E1%BB%9Dng%20Lam%20S%C6%A1n%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 54,
+    "name": "Bảo tàng Hồ Chí Minh – Chi nhánh TP.HCM (Bến Nhà Rồng)",
+    "tags": [
+      "history",
+      "politics"
+    ],
+    "price": 30000,
+    "opening_hours": "07:30 - 11:30, 13:30 - 17:00",
+    "address": "Số 1 Nguyễn Tất Thành, Phường 12, Quận 4",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20H%E1%BB%93%20Ch%C3%AD%20Minh%20%E2%80%93%20Chi%20nh%C3%A1nh%20TP.HCM%20%28B%E1%BA%BFn%20Nh%C3%A0%20R%E1%BB%93ng%29%20S%E1%BB%91%201%20Nguy%E1%BB%85n%20T%E1%BA%A5t%20Th%C3%A0nh%2C%20Ph%C6%B0%E1%BB%9Dng%2012%2C%20Qu%E1%BA%ADn%204%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 55,
+    "name": "Chùa Xá Lợi",
+    "tags": [
+      "religion",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "07:00 - 18:00",
+    "address": "89 Bà Huyện Thanh Quan, Phường Võ Thị Sáu, Quận 3",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Ch%C3%B9a%20X%C3%A1%20L%E1%BB%A3i%2089%20B%C3%A0%20Huy%E1%BB%87n%20Thanh%20Quan%2C%20Ph%C6%B0%E1%BB%9Dng%20V%C3%B5%20Th%E1%BB%8B%20S%C3%A1u%2C%20Qu%E1%BA%ADn%203%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 56,
+    "name": "Đường Sách TP.HCM Nguyễn Văn Bình",
+    "tags": [
+      "art",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "08:00 - 22:00",
+    "address": "Đường Nguyễn Văn Bình, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=%C4%90%C6%B0%E1%BB%9Dng%20S%C3%A1ch%20TP.HCM%20Nguy%E1%BB%85n%20V%C4%83n%20B%C3%ACnh%20%C4%90%C6%B0%E1%BB%9Dng%20Nguy%E1%BB%85n%20V%C4%83n%20B%C3%ACnh%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 57,
+    "name": "The Bloq",
+    "tags": [
+      "art",
+      "cuisine"
+    ],
+    "price": 0,
+    "opening_hours": "09:00 - 22:00",
+    "address": "19 Trần Ngọc Diện, Phường Thảo Điền, TP. Thủ Đức",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=The%20Bloq%2019%20Tr%E1%BA%A7n%20Ng%E1%BB%8Dc%20Di%E1%BB%87n%2C%20Ph%C6%B0%E1%BB%9Dng%20Th%E1%BA%A3o%20%C4%90i%E1%BB%81n%2C%20TP.%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 58,
+    "name": "Bảo tàng Lịch sử Việt Nam - TP.HCM",
+    "tags": [
+      "history",
+      "art"
+    ],
+    "price": 30000,
+    "opening_hours": "08:00 - 17:00",
+    "address": "02 Nguyễn Bỉnh Khiêm, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=B%E1%BA%A3o%20t%C3%A0ng%20L%E1%BB%8Bch%20s%E1%BB%AD%20Vi%E1%BB%87t%20Nam%20-%20TP.HCM%2002%20Nguy%E1%BB%85n%20B%E1%BB%89nh%20Khi%C3%AAm%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 59,
+    "name": "Cà phê Catinat",
+    "tags": [
+      "cuisine",
+      "art"
+    ],
+    "price": 60000,
+    "opening_hours": "07:00 - 22:00",
+    "address": "26 Lý Tự Trọng, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%A0%20ph%C3%AA%20Catinat%2026%20L%C3%BD%20T%E1%BB%B1%20Tr%E1%BB%8Dng%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 60,
+    "name": "Nàng Thơ Sài Gòn",
+    "tags": [
+      "cuisine",
+      "art"
+    ],
+    "price": 50000,
+    "opening_hours": "09:00 - 22:00",
+    "address": "75/1 Mạc Thị Bưởi, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=N%C3%A0ng%20Th%C6%A1%20S%C3%A0i%20G%C3%B2n%2075/1%20M%E1%BA%A1c%20Th%E1%BB%8B%20B%C6%B0%E1%BB%9Fi%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 61,
+    "name": "Chill Skybar",
+    "tags": [
+      "cuisine",
+      "art"
+    ],
+    "price": 200000,
+    "opening_hours": "17:30 - 02:00",
+    "address": "Tầng 26-27 Tòa nhà AB Tower, 76 Lê Lai, Phường Bến Thành, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Chill%20Skybar%20T%E1%BA%A7ng%2026-27%20T%C3%B2a%20nh%C3%A0%20AB%20Tower%2C%2076%20L%C3%AA%20Lai%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Th%C3%A0nh%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 62,
+    "name": "Landmark 81 Skyview",
+    "tags": [
+      "art",
+      "cuisine",
+      "nature"
+    ],
+    "price": 162000,
+    "opening_hours": "08:30 - 22:00",
+    "address": "720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Landmark%2081%20Skyview%20720A%20%C4%90i%E1%BB%87n%20Bi%C3%AAn%20Ph%E1%BB%A7%2C%20Ph%C6%B0%E1%BB%9Dng%2022%2C%20Qu%E1%BA%ADn%20B%C3%ACnh%20Th%E1%BA%A1nh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 63,
+    "name": "Hồ Bán Nguyệt & Cầu Ánh Sao",
+    "tags": [
+      "cuisine",
+      "art",
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "Cả ngày",
+    "address": "101 Tôn Dật Tiên, Phường Tân Phú, Quận 7",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=H%E1%BB%93%20B%C3%A1n%20Nguy%E1%BB%87t%20%26%20C%E1%BA%A7u%20%C3%81nh%20Sao%20101%20T%C3%B4n%20D%E1%BA%ADt%20Ti%C3%AAn%2C%20Ph%C6%B0%E1%BB%9Dng%20T%C3%A2n%20Ph%C3%BA%2C%20Qu%E1%BA%ADn%207%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 64,
+    "name": "Little Hanoi Coffee",
+    "tags": [
+      "cuisine",
+      "art"
+    ],
+    "price": 50000,
+    "opening_hours": "07:00 - 22:00",
+    "address": "29/18 Hai Bà Trưng, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Little%20Hanoi%20Coffee%2029/18%20Hai%20B%C3%A0%20Tr%C6%B0ng%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 65,
+    "name": "Saigon Centre / Takashimaya",
+    "tags": [
+      "cuisine"
+    ],
+    "price": 0,
+    "opening_hours": "09:30 - 21:30",
+    "address": "65 Lê Lợi, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Saigon%20Centre%20/%20Takashimaya%2065%20L%C3%AA%20L%E1%BB%A3i%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 66,
+    "name": "Công viên 30/4",
+    "tags": [
+      "nature",
+      "politics"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Đường Pasteur, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%2030/4%20%C4%90%C6%B0%E1%BB%9Dng%20Pasteur%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 67,
+    "name": "Công viên Lê Thị Riêng",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "875 Cách Mạng Tháng Tám, Phường 15, Quận 10",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20L%C3%AA%20Th%E1%BB%8B%20Ri%C3%AAng%20875%20C%C3%A1ch%20M%E1%BA%A1ng%20Th%C3%A1ng%20T%C3%A1m%2C%20Ph%C6%B0%E1%BB%9Dng%2015%2C%20Qu%E1%BA%ADn%2010%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 68,
+    "name": "Công viên Hoàng Văn Thụ",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Phan Đình Giót, Phường 2, Quận Tân Bình",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20Ho%C3%A0ng%20V%C4%83n%20Th%E1%BB%A5%20Phan%20%C4%90%C3%ACnh%20Gi%C3%B3t%2C%20Ph%C6%B0%E1%BB%9Dng%202%2C%20Qu%E1%BA%ADn%20T%C3%A2n%20B%C3%ACnh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 69,
+    "name": "Công viên Gia Định",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Đường Hoàng Minh Giám, Phường 3, Quận Gò Vấp",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20Gia%20%C4%90%E1%BB%8Bnh%20%C4%90%C6%B0%E1%BB%9Dng%20Ho%C3%A0ng%20Minh%20Gi%C3%A1m%2C%20Ph%C6%B0%E1%BB%9Dng%203%2C%20Qu%E1%BA%ADn%20G%C3%B2%20V%E1%BA%A5p%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 70,
+    "name": "Công viên Bến Bạch Đằng",
+    "tags": [
+      "nature",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 23:00",
+    "address": "Tôn Đức Thắng, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20B%E1%BA%BFn%20B%E1%BA%A1ch%20%C4%90%E1%BA%B1ng%20T%C3%B4n%20%C4%90%E1%BB%A9c%20Th%E1%BA%AFng%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 71,
+    "name": "Công viên 23/9",
+    "tags": [
+      "nature",
+      "politics",
+      "cuisine"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Phạm Ngũ Lão, Phường Phạm Ngũ Lão, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%2023/9%20Ph%E1%BA%A1m%20Ng%C5%A9%20L%C3%A3o%2C%20Ph%C6%B0%E1%BB%9Dng%20Ph%E1%BA%A1m%20Ng%C5%A9%20L%C3%A3o%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 72,
+    "name": "Công viên Lê Văn Tám",
+    "tags": [
+      "nature",
+      "history"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Hai Bà Trưng, Phường Đa Kao, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20L%C3%AA%20V%C4%83n%20T%C3%A1m%20Hai%20B%C3%A0%20Tr%C6%B0ng%2C%20Ph%C6%B0%E1%BB%9Dng%20%C4%90a%20Kao%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 73,
+    "name": "Công viên Khánh Hội",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Đường 48, Phường 5, Quận 4",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20Kh%C3%A1nh%20H%E1%BB%99i%20%C4%90%C6%B0%E1%BB%9Dng%2048%2C%20Ph%C6%B0%E1%BB%9Dng%205%2C%20Qu%E1%BA%ADn%204%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 74,
+    "name": "Công viên Văn Lang",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Đường Hùng Vương, Phường 9, Quận 5",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20V%C4%83n%20Lang%20%C4%90%C6%B0%E1%BB%9Dng%20H%C3%B9ng%20V%C6%B0%C6%A1ng%2C%20Ph%C6%B0%E1%BB%9Dng%209%2C%20Qu%E1%BA%ADn%205%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 75,
+    "name": "Công viên Phú Lâm",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Lê Tuấn Mậu, Phường 13, Quận 6",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20Ph%C3%BA%20L%C3%A2m%20L%C3%AA%20Tu%E1%BA%A5n%20M%E1%BA%ADu%2C%20Ph%C6%B0%E1%BB%9Dng%2013%2C%20Qu%E1%BA%ADn%206%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 76,
+    "name": "Công viên Bách Tùng Diệp",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "Công trường Lam Sơn, Phường Bến Nghé, Quận 1",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20B%C3%A1ch%20T%C3%B9ng%20Di%E1%BB%87p%20C%C3%B4ng%20tr%C6%B0%E1%BB%9Dng%20Lam%20S%C6%A1n%2C%20Ph%C6%B0%E1%BB%9Dng%20B%E1%BA%BFn%20Ngh%C3%A9%2C%20Qu%E1%BA%ADn%201%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 77,
+    "name": "Công viên Central Park (Vinhomes Central Park)",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "208 Nguyễn Hữu Cảnh, Phường 22, Quận Bình Thạnh",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20Central%20Park%20%28Vinhomes%20Central%20Park%29%20208%20Nguy%E1%BB%85n%20H%E1%BB%AFu%20C%E1%BA%A3nh%2C%20Ph%C6%B0%E1%BB%9Dng%2022%2C%20Qu%E1%BA%ADn%20B%C3%ACnh%20Th%E1%BA%A1nh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 78,
+    "name": "Công viên bờ sông Sài Gòn (TP. Thủ Đức)",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 23:00",
+    "address": "Đường Trần Não, Phường Thủ Thiêm, TP. Thủ Đức",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20b%E1%BB%9D%20s%C3%B4ng%20S%C3%A0i%20G%C3%B2n%20%28TP.%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c%29%20%C4%90%C6%B0%E1%BB%9Dng%20Tr%E1%BA%A7n%20N%C3%A3o%2C%20Ph%C6%B0%E1%BB%9Dng%20Th%E1%BB%A7%20Thi%C3%AAm%2C%20TP.%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 79,
+    "name": "Công viên Rạch Miễu",
+    "tags": [
+      "nature"
+    ],
+    "price": 0,
+    "opening_hours": "05:00 - 22:00",
+    "address": "247 Hoàng Sa, Phường 8, Quận Phú Nhuận",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=C%C3%B4ng%20vi%C3%AAn%20R%E1%BA%A1ch%20Mi%E1%BB%85u%20247%20Ho%C3%A0ng%20Sa%2C%20Ph%C6%B0%E1%BB%9Dng%208%2C%20Qu%E1%BA%ADn%20Ph%C3%BA%20Nhu%E1%BA%ADn%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 80,
+    "name": "Khu Du lịch Bình Quới 1",
+    "tags": [
+      "cuisine",
+      "nature"
+    ],
+    "price": 300000,
+    "opening_hours": "09:00 - 21:00",
+    "address": "114 Bình Quới, Phường 27, Quận Bình Thạnh",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Khu%20Du%20l%E1%BB%8Bch%20B%C3%ACnh%20Qu%E1%BB%9Bi%201%20114%20B%C3%ACnh%20Qu%E1%BB%9Bi%2C%20Ph%C6%B0%E1%BB%9Dng%2027%2C%20Qu%E1%BA%ADn%20B%C3%ACnh%20Th%E1%BA%A1nh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 81,
+    "name": "Khu Du lịch Văn Thánh",
+    "tags": [
+      "cuisine",
+      "nature"
+    ],
+    "price": 300000,
+    "opening_hours": "09:00 - 21:00",
+    "address": "48/10 Điện Biên Phủ, Phường 22, Quận Bình Thạnh",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Khu%20Du%20l%E1%BB%8Bch%20V%C4%83n%20Th%C3%A1nh%2048/10%20%C4%90i%E1%BB%87n%20Bi%C3%AAn%20Ph%E1%BB%A7%2C%20Ph%C6%B0%E1%BB%9Dng%2022%2C%20Qu%E1%BA%ADn%20B%C3%ACnh%20Th%E1%BA%A1nh%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 82,
+    "name": "Khu Du lịch Văn Hóa Suối Tiên",
+    "tags": [
+      "art",
+      "religion",
+      "nature"
+    ],
+    "price": 150000,
+    "opening_hours": "08:00 - 17:00",
+    "address": "120 Xa lộ Hà Nội, Phường Tân Phú, TP. Thủ Đức",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Khu%20Du%20l%E1%BB%8Bch%20V%C4%83n%20H%C3%B3a%20Su%E1%BB%91i%20Ti%C3%AAn%20120%20Xa%20l%E1%BB%99%20H%C3%A0%20N%E1%BB%99i%2C%20Ph%C6%B0%E1%BB%9Dng%20T%C3%A2n%20Ph%C3%BA%2C%20TP.%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  },
+  {
+    "id": 83,
+    "name": "Khu Du lịch Văn Hóa Đầm Sen",
+    "tags": [
+      "art",
+      "nature"
+    ],
+    "price": 140000,
+    "opening_hours": "08:00 - 18:00",
+    "address": "3 Hòa Bình, Phường 3, Quận 11",
+    "map_link": "https://www.google.com/maps/search/?api=1&query=Khu%20Du%20l%E1%BB%8Bch%20V%C4%83n%20H%C3%B3a%20%C4%90%E1%BA%A7m%20Sen%203%20H%C3%B2a%20B%C3%ACnh%2C%20Ph%C6%B0%E1%BB%9Dng%203%2C%20Qu%E1%BA%ADn%2011%20H%E1%BB%93%20Ch%C3%AD%20Minh"
+  }
+]
