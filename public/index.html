@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fas fa-plane-departure"></i> Travel<span>AI</span>
+            </div>
+            <p class="subtitle">Smart Location Recommender</p>
+
+            <div class="form-group">
+                <label>1. Select Your Interests</label>
+                <div class="tags-container">
+                    <label class="tag-box"><input type="checkbox" value="cuisine"> 🍜 Cuisine</label>
+                    <label class="tag-box"><input type="checkbox" value="history"> 🏛️ History</label>
+                    <label class="tag-box"><input type="checkbox" value="politics"> 🇻🇳 Politics</label>
+                    <label class="tag-box"><input type="checkbox" value="art"> 🎨 Art</label>
+                    <label class="tag-box"><input type="checkbox" value="nature"> 🌳 Nature</label>
+                    <label class="tag-box"><input type="checkbox" value="religion"> 🛕 Religion</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>2. Max Budget Per Place (VND)</label>
+                <input type="number" id="budgetInput" placeholder="e.g. 500000" value="500000">
+            </div>
+
+            <div class="form-group" style="border-top: 1px solid #eee; padding-top: 15px; margin-top: 15px;">
+                <label style="color: #2E7D32;">3. Trip Schedule</label>
+                <div style="display: flex; gap: 10px;">
+                    <div style="flex: 1;">
+                        <label style="font-size: 0.8em; margin-bottom: 5px;">Start</label>
+                        <input type="time" id="startTime" value="08:00" style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #ddd; box-sizing: border-box;">
+                    </div>
+                    <div style="flex: 1;">
+                        <label style="font-size: 0.8em; margin-bottom: 5px;">End</label>
+                        <input type="time" id="endTime" value="17:00" style="width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #ddd; box-sizing: border-box;">
+                    </div>
+                </div>
+            </div>
+
+            <div style="display:flex; gap:10px; margin-top:auto;">
+  <button id="btnAI1" onclick="runAI1()">
+    <i class="fas fa-map-marked-alt"></i>  AI1
+  </button>
+
+  <button id="btnAI2" onclick="runAI2()" disabled
+          title="Run AI1 first to enable AI2">
+    <i class="far fa-calendar-alt"></i>  AI2
+  </button>
+</div>
+
+        </div>
+
+        <div class="content-area">
+            <div class="ai-column">
+                <div class="ai-header">
+                    <h3>🤖 Suggested Places (AI1)</h3>
+                    <div style="display:flex; gap:10px; align-items:center; margin:10px 0;">
+    <button id="btnUseSelected" disabled onclick="useSelectedForAI2()">
+        <i class="fas fa-check"></i> Use selected for AI2
+    </button>
+    <span id="selectedCount" style="font-size:0.85em; color:#666;">
+        Selected: 0
+    </span>
+</div>
+
+                    <span class="badge online">Active</span>
+                </div>
+                <div id="ai1-result" class="result-list">
+                    <div class="empty-state">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Select inputs to start.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ai-column">
+                <div class="ai-header">
+                    <h3>📅 Smart Itinerary (AI2)</h3>
+                    <span class="badge warning" style="background:#FFF3E0; color:#F57C00">Gemini</span>
+                </div>
+                <div id="ai2-result" class="result-list">
+                    <div class="empty-state">
+                        <i class="far fa-calendar-alt"></i>
+                        <p>Timeline will appear here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
