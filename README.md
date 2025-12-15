@@ -1,97 +1,176 @@
+# AI Travel Planner (AI1 Recommender + AI2 Itinerary)
 
------
+Web app gợi ý địa điểm và lập lịch trình du lịch trong ngày.
 
-# 📘 HƯỚNG DẪN CÀI ĐẶT & CHẠY DỰ ÁN AI TRAVEL PLANNER
+- **AI1 (Python + ML)**: Gợi ý địa điểm theo *sở thích* (tags) và *ngân sách*.
+- **AI2 (Python + Gemini API)**: Tạo *timeline lịch trình* dựa trên danh sách địa điểm từ AI1, có di chuyển + ăn uống hợp lý.
+- **Backend**: Node.js (Express) gọi Python scripts.
+- **Frontend**: HTML/CSS/JS (UI 2 cột: AI1 & AI2).
 
-Dự án Web App gợi ý địa điểm và lập lịch trình du lịch tự động sử dụng **Node.js** (Backend), **Python** (AI Logic) và **Gemini API**.
+---
 
------
+## 1) Yêu cầu hệ thống
 
-## 1\. Yêu Cầu Hệ Thống (Prerequisites)
+Cài sẵn:
 
-Trước khi bắt đầu, hãy chắc chắn máy tính của bạn đã cài đặt 2 phần mềm sau:
+1. **Node.js** (khuyến nghị bản LTS)
+2. **Python 3.x**
+3. (Khuyến nghị) Mở Terminal/PowerShell tại đúng thư mục dự án
 
-1.  **Node.js** (Phiên bản LTS): [Tải tại đây](https://nodejs.org/)
-2.  **Python** (Phiên bản 3.x): [Tải tại đây](https://www.python.org/)
-      * *Lưu ý khi cài Python:* Nhớ tích vào ô **"Add Python to PATH"**.
+---
 
------
+## 2) Cấu trúc dự án (tóm tắt)
 
-## 2\. Cài Đặt Thư Viện (Dependencies)
-
-Mở **Terminal** (hoặc PowerShell/CMD) tại thư mục dự án `web-ai-travel` và chạy lần lượt các lệnh sau:
-
-### A. Cài đặt thư viện cho Backend (Node.js)
-
-```bash
-npm init -y
-npm install express body-parser
+```
+web-ai-travel/
+├─ server.js
+├─ ai1.py
+├─ ai2.py
+├─ data.json
+├─ package.json
+├─ .env                
+└─ public/
+   ├─ index.html
+   ├─ style.css
+   └─ script.js
 ```
 
-### B. Cài đặt thư viện cho AI (Python)
+> Lưu ý: `data.json` là dữ liệu địa điểm. AI1/AI2 đều đọc từ file này.
+
+---
+
+## 3) Cài đặt thư viện
+
+### 3.1) Cài thư viện Node.js (Backend)
+
+Trong thư mục dự án, chạy:
+
+```bash
+npm install
+```
+
+Nếu dự án chưa có `node_modules` hoặc bạn muốn cài thủ công:
+
+```bash
+npm i express body-parser dotenv
+```
+
+### 3.2) Cài thư viện Python (AI)
 
 ```bash
 pip install pandas scikit-learn google-generativeai
 ```
 
-*(Nếu bạn dùng Mac/Linux, có thể cần dùng `pip3` thay vì `pip`)*.
+> Nếu dùng Mac/Linux và `pip` không chạy, thử `pip3`.
 
------
+---
 
-## 3\. Cấu Hình API Key (Quan Trọng)
+## 4) Cấu hình Gemini API Key (Quan trọng)
 
-Để chức năng **Lập lịch trình (AI2)** hoạt động, bạn cần có API Key của Google Gemini.
+AI2 cần Gemini API Key. Dự án hỗ trợ **nhiều API key** để tự đảo key khi gặp quota/rate limit.
 
-1.  Mở file **`ai2.py`**.
-2.  Tìm dòng: `API_KEY = "YOUR_API_KEY"`
-3.  Thay thế `"YOUR_API_KEY"` bằng mã key thật của bạn (lấy tại [aistudio.google.com](https://aistudio.google.com/)).
-4.  Lưu file lại (`Ctrl + S`).
+### 4.1) Tạo file `.env`
 
------
+Tạo file tên **.env** (cùng cấp với `server.js`) với nội dung:
 
-## 4\. Kiểm Tra Dữ Liệu
+```env
+GEMINI_API_KEYS=KEY1,KEY2,KEY3
+```
 
-Đảm bảo trong thư mục dự án có đầy đủ các file sau:
+- Thay `KEY1,KEY2,KEY3` bằng key thật của bạn (có thể 1 hoặc nhiều key)
+- Không thêm dấu ngoặc kép
+- Không để dấu cách thừa
 
-  * `server.js` (Server chính)
-  * `recommender.py` (AI Gợi ý địa điểm)
-  * `ai2.py` (AI Lập lịch trình)
-  * `data.json` (Dữ liệu địa điểm - Tiếng Anh chuẩn)
-  * Thư mục `public/` (Chứa `index.html`, `style.css`, `script.js`)
+### 4.2) Lấy Gemini API Key ở đâu?
 
------
+- Google AI Studio: https://aistudio.google.com/
 
-## 5\. Cách Chạy Dự Án
+---
 
-### Bước 1: Khởi động Server
+## 5) Chạy dự án
 
-Tại Terminal của thư mục dự án, gõ lệnh:
+### Bước 1: Start server
 
 ```bash
 node server.js
 ```
 
-Nếu thành công, màn hình sẽ hiện:
+Nếu thành công sẽ thấy:
 
-> `Server đang chạy tại http://localhost:3000`
+```
+Server running at http://localhost:3000
+```
 
-### Bước 2: Sử dụng Web App
+### Bước 2: Mở web
 
-1.  Mở trình duyệt (Chrome, Cốc Cốc, Edge...).
-2.  Truy cập địa chỉ: **[http://localhost:3000](https://www.google.com/search?q=http://localhost:3000)**
-3.  Chọn sở thích, nhập ngân sách, chọn giờ đi/về và bấm nút **"Generate Plan"**.
+Mở trình duyệt và truy cập:
 
------
+- http://localhost:3000
 
-## 6\. Khắc Phục Lỗi Thường Gặp (Troubleshooting)
+---
 
-  * **Lỗi `ModuleNotFoundError`**: Do chưa cài đủ thư viện Python. Hãy chạy lại bước 2B.
-  * **Lỗi `AI2 Error` / `No plan found`**:
-      * Kiểm tra lại API Key trong `ai2.py`.
-      * Kiểm tra xem file `data.json` có đúng định dạng không.
-  * **Lỗi tiếng Việt (trên Windows)**: Code đã có sẵn đoạn fix lỗi hiển thị (`io.TextIOWrapper`), nhưng nếu vẫn lỗi, hãy đảm bảo file code được lưu với encoding **UTF-8**.
-  * **Không mở được Web**: Kiểm tra xem bạn đã chạy lệnh `node server.js` chưa và cửa sổ Terminal đó có đang mở không (đừng tắt nó khi đang dùng web).
+## 6) Cách sử dụng (cho người mới)
 
------
+### 6.1) Chạy AI1 (Suggested Places)
 
-**Chúc bạn thành công\! 🚀**
+1. Chọn **Interests** (Cuisine/History/Art/Nature/Religion…)
+2. Nhập **Budget (VND)**  
+   - Nếu để trống / nhập sai / nhập số âm → hệ thống tự dùng **500000**
+3. Bấm **Run AI1** để nhận danh sách địa điểm gợi ý.
+
+### 6.2) Chạy AI2 (Smart Itinerary)
+
+1. Chọn **Start / End time**  
+   - Nếu để trống → mặc định **08:00 – 17:00**
+   - Nếu thời lượng < **2 giờ** → hệ thống sẽ báo lỗi và yêu cầu nhập lại
+2. Bấm **Run AI2** để tạo timeline lịch trình.
+
+**Lưu ý quan trọng:**
+- AI2 **chỉ chạy khi AI1 đã có kết quả**
+- AI2 **chỉ dùng các địa điểm do AI1 gợi ý**, không tự bịa địa điểm mới
+
+---
+
+## 7) Troubleshooting (lỗi thường gặp)
+
+### 7.1) Lỗi “No Gemini API keys configured”
+Nguyên nhân: chưa tạo `.env` hoặc `.env` không đúng vị trí.
+
+Cách sửa:
+- Đảm bảo `.env` nằm cùng thư mục với `server.js`
+- Nội dung đúng dạng:
+  ```env
+  GEMINI_API_KEYS=KEY1,KEY2
+  ```
+- Tắt server và chạy lại `node server.js`
+
+### 7.2) Lỗi Python: ModuleNotFoundError
+Chưa cài đủ thư viện Python.
+
+Chạy lại:
+```bash
+pip install pandas scikit-learn google-generativeai
+```
+
+### 7.3) AI2 báo lỗi quota / 429 / rate limit
+Gemini key bị giới hạn lượt gọi (quota). Dự án sẽ tự:
+- đổi sang key khác (nếu bạn cấu hình nhiều key trong `.env`)
+- hoặc yêu cầu thử lại sau
+
+### 7.4) Không thấy web hiển thị
+- Kiểm tra server đã chạy chưa (terminal có dòng “Server running…”)
+- Kiểm tra link: http://localhost:3000
+- Nếu cổng 3000 bị chiếm, đổi `PORT` trong `server.js`
+
+---
+
+## 8) Ghi chú cho bài nộp/đánh giá
+
+- AI1 dùng **CountVectorizer + Cosine Similarity** để tính độ phù hợp theo tags và lọc theo ngân sách.
+- AI2 dùng **Gemini** để tạo lịch trình theo thời gian, có di chuyển và ăn uống hợp lý, chỉ dựa trên danh sách điểm từ AI1.
+- Backend gọi Python bằng `child_process.spawn`, nhận dữ liệu JSON và trả về frontend.
+
+---
+
+Chúc bạn nộp bài thành công! 🚀
+
