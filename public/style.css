@@ -1,0 +1,242 @@
+:root {
+    --primary: #2E7D32;
+    --light-bg: #E8F5E9;
+    --white: #ffffff;
+    --text: #333;
+    --border: #ddd;
+}
+
+body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f7f6; height: 100vh; color: var(--text); }
+
+.main-container { display: flex; height: 100vh; }
+
+/* SIDEBAR */
+.sidebar {
+    width: 320px;
+    background: var(--white);
+    padding: 30px;
+    box-shadow: 2px 0 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    height: 100vh; 
+    overflow-y: auto; 
+    box-sizing: border-box; 
+}
+
+
+.logo { font-size: 1.8em; font-weight: bold; color: var(--primary); display: flex; align-items: center; gap: 10px; }
+.logo span { color: #4CAF50; }
+.subtitle { color: #888; margin-top: -15px; font-size: 0.9em; }
+
+.form-group label { font-weight: 600; display: block; margin-bottom: 10px; color: var(--primary); }
+
+.tags-container { display: flex; flex-direction: column; gap: 8px; }
+
+.tag-box {
+    background: var(--light-bg);
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid transparent;
+}
+.tag-box:hover { background: #C8E6C9; }
+.tag-box:has(input:checked) { background: var(--primary); color: white; }
+
+#budgetInput {
+    width: 100%; padding: 12px; border: 1px solid var(--border);
+    border-radius: 8px; font-size: 1em; box-sizing: border-box;
+}
+
+#btnSearch {
+    background: var(--primary); color: white; border: none;
+    padding: 15px; border-radius: 8px; font-size: 1.1em;
+    cursor: pointer; margin-top: auto; transition: 0.3s;
+}
+#btnSearch:hover { background: #1B5E20; }
+
+/* CONTENT AREA */
+.content-area { flex: 1; padding: 30px; display: flex; gap: 20px; }
+
+.ai-column {
+    flex: 1; background: var(--white); border-radius: 12px;
+    padding: 20px; display: flex; flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); overflow-y: auto;
+}
+
+.ai-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding-bottom: 15px; border-bottom: 2px solid #f0f0f0; margin-bottom: 15px;
+}
+.ai-header h3 { margin: 0; color: #444; font-size: 1.1em; }
+
+.badge { padding: 4px 10px; border-radius: 20px; font-size: 0.75em; font-weight: bold; }
+.online { background: #E8F5E9; color: var(--primary); }
+.offline { background: #FFF3E0; color: #F57C00; }
+
+.ai-future { background: #fcfcfc; border: 2px dashed #e0e0e0; opacity: 0.8; }
+
+/* RESULT CARD */
+.card {
+    background: white; border: 1px solid #eee; border-left: 4px solid var(--primary);
+    padding: 15px; margin-bottom: 15px; border-radius: 6px;
+    transition: transform 0.2s;
+}
+.card:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+
+.place-title { font-weight: bold; font-size: 1.1em; color: var(--primary); display: flex; justify-content: space-between; }
+.score { font-size: 0.8em; background: var(--primary); color: white; padding: 2px 6px; border-radius: 4px; }
+.info { font-size: 0.9em; color: #666; margin: 5px 0; }
+.info i { width: 20px; color: #81C784; }
+
+.map-link {
+    display: inline-block; margin-top: 8px; font-size: 0.9em;
+    color: var(--primary); text-decoration: none; font-weight: 600;
+}
+.map-link:hover { text-decoration: underline; }
+
+.empty-state { text-align: center; color: #aaa; margin-top: 60px; }
+.empty-state i { font-size: 3em; margin-bottom: 15px; display: block; }
+
+/* --- TIMELINE CSS (CHO AI2) --- */
+.timeline-wrapper {
+    padding: 10px 0;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+/* Cột Giờ */
+.time-col {
+    min-width: 95px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.9em;
+    text-align: right;
+    padding-top: 2px;
+}
+
+/* Cột Marker (Icon + Đường kẻ) */
+.marker-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24px;
+}
+
+.marker {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.85em;
+    z-index: 1;
+}
+
+.line {
+    flex: 1;
+    width: 2px;
+    background-color: #eee;
+    margin-top: 5px;
+}
+
+.timeline-item:last-child .line { display: none; }
+
+/* Style theo loại hoạt động */
+.timeline-visit .marker { background-color: #2E7D32; } /* Xanh lá: Tham quan */
+.timeline-visit .activity-title { color: #2E7D32; font-weight: bold; }
+
+.timeline-move .marker { background-color: #9E9E9E; width: 22px; height: 22px; margin-top:3px; } /* Xám: Di chuyển */
+.timeline-move .activity-title { color: #666; font-style: italic; }
+.timeline-move .time-col { font-weight: normal; color: #999; font-size: 0.85em;}
+
+.timeline-food .marker { background-color: #FF9800; } /* Cam: Ăn uống */
+.timeline-food .activity-title { color: #FF9800; font-weight: bold; }
+
+/* Cột Nội dung */
+.content-col { flex: 1; padding-top: 2px; }
+.activity-note { font-size: 0.9em; color: #666; margin-top: 3px; }
+
+#btnAI1, #btnAI2 {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.05em;
+    cursor: pointer;
+    transition: 0.3s;
+    flex: 1;
+}
+
+#btnAI1:hover, #btnAI2:hover { background: #1B5E20; }
+
+#btnAI2:disabled {
+    background: #cfcfcf;
+    cursor: not-allowed;
+}
+
+#btnUseSelected {
+    background: #1976D2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+#btnUseSelected:disabled {
+    background: #cfcfcf;
+    cursor: not-allowed;
+}
+
+/* ================= AI2 TIMELINE ================= */
+
+#ai2-result {
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.timeline-item {
+    background: #f9f9f9;
+    border-left: 4px solid #1976D2;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
+.timeline-item strong {
+    font-size: 14px;
+    color: #1976D2;
+}
+
+.timeline-item small {
+    display: block;
+    margin-top: 4px;
+    color: #555;
+    font-size: 13px;
+}
+
+.ai2-note{
+  background:#FFF8E1;
+  border:1px solid #FFE0B2;
+  color:#6D4C41;
+  padding:10px 12px;
+  border-radius:8px;
+  margin-bottom:12px;
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  line-height:1.5;
+}
+.ai2-note i{ margin-top:2px; }
