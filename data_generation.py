@@ -10,7 +10,7 @@ if sys.platform.startswith('win'):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # --- 1. CẤU HÌNH API ---
-API_KEY = "AIzaSyC6ycsZ_geQXdkfRH-fZwujBVirgKOn1FE" # <--- NHỚ THAY KEY CỦA BẠN VÀO ĐÂY
+API_KEY = "Your_api_key" # <--- NHỚ THAY KEY CỦA BẠN VÀO ĐÂY
 genai.configure(api_key=API_KEY)
 
 model = genai.GenerativeModel(
@@ -107,4 +107,5 @@ def generate_data():
     print(f"\n🎉 THÀNH CÔNG! Đã lưu {len(final_data)} địa điểm vào '{output_file}'.")
 
 if __name__ == "__main__":
+
     generate_data()
