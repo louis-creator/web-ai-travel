@@ -172,5 +172,5 @@ Gemini key bị giới hạn lượt gọi (quota). Dự án sẽ tự:
 
 ---
 
-Chúc bạn nộp bài thành công! 🚀
+
 
